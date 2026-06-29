@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t flask-app .
+          docker build -t prasanth0098/flask-app:latest .
 
       - name: Docker login
         run: |
